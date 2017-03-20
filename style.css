@@ -283,11 +283,9 @@ main {
   width: 210px;
   height: 385px;
   text-align: center;
-}
-
-#main-list .items li+li {
+  border: solid 3px transparent;
   margin-right: 25px;
-} 
+}
 
 #main-list .items li span {
   display: inline-block;
@@ -313,7 +311,7 @@ main {
   margin-bottom: 5px;
 }
 
-#main-list .items li:nth-child(1) {
+#main-list .items li:hover {
   border: 3px solid #FF0092;
 }
 
